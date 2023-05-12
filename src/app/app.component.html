@@ -1,0 +1,14 @@
+<div class="background-image">
+  <div class="principal">
+    <ng-container *ngIf="currentRoute !== '/nuevo'">
+      <app-business-info></app-business-info>  
+      <app-qr-code></app-qr-code>
+      <button *ngIf="showInstallPrompt" (click)="installPWA()" class="button">
+        <span class="button-content">Instalar App</span>
+      </button>
+    </ng-container>
+    <router-outlet *ngIf="currentRoute === '/nuevo'"></router-outlet>
+    
+    
+  </div>
+</div>

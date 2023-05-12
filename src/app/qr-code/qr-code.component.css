@@ -1,0 +1,52 @@
+.qr-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    
+
+  
+    @media (max-width: 767px) {
+      padding: 10px;
+  
+      h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  
+
+  .p-qr{
+    padding-top: 20px;
+    color: white;
+  }
+  
+
+
+  h2 {
+    display: block;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: auto; /* Cambia a "width: auto" */
+    overflow: hidden;
+    animation: typing 2s steps(19), blink .5s infinite step-end alternate;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 300px; /* Cambia a un valor relativo, por ejemplo "width: 100%" */
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  

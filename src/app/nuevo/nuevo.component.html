@@ -1,0 +1,56 @@
+<div class="login-box">
+ 
+  <form #productsForm="ngForm" (ngSubmit)="onSubmit(productsForm.value)">
+    <div class="user-box">
+      <input type="text" name="businessName"
+      required="" ngModel>
+      <label>Nombre de empresa</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="businessAddress" required="" ngModel>
+      <label>Dirección de empresa</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="businessPhone" required="" ngModel>
+      <label>Número telefónico</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="businessEmail" required="" ngModel>
+      <label>Correo Gmail</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="businessWebsite" required="" ngModel>
+      <label>Página web link</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="businessLogo" required="" ngModel>
+      <label>Logo link</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="facebookLink" required="" ngModel>
+      <label>Facebook Link</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="twitterLink" required="" ngModel>
+      <label>Twitter Link</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="instagramLink" required="" ngModel>
+      <label>Instagram Link</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="linkedinLink" required="" ngModel>
+      <label>Linkedid Link</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="youtubeLink" required="" ngModel>
+      <label>Youtube Link</label>
+    </div>
+    <button type="submit" id="my-button">
+      <a>
+      SEND
+  <span></span>
+</a></button>
+    
+  </form>
+</div>
