@@ -1,3 +1,9 @@
+# READ
+
+Este repositorio requiere el uso de una API que se encuentra en la carpeta "API".
+
+### Este proyecto es una aplicación web desarrollada con Angular, que utiliza una API para crear tarjetas digitales interactivas. La aplicación permite consumir datos de una API externa y generar tarjetas virtuales con contenido personalizado, brindando una experiencia visualmente atractiva y fácil de usar.
+
 # BusinessCardApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.3.
